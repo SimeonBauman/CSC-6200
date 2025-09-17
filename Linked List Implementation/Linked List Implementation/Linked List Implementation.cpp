@@ -53,6 +53,7 @@ int main()
 		if (currentNode->nextNode == NULL) break;
 		currentNode = currentNode->nextNode;
 	}
+	return 0;
 }
 
 

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int getSize(int array[][5]);
+
 
 int main()
 {
@@ -29,4 +29,5 @@ int main()
     for (int i = 0; i < 6; i++) {
         cout << sparseMatrix[2][i] << ", ";
     }
+    return 0;
 }
